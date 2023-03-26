@@ -5,6 +5,7 @@
 * {
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -50,8 +51,15 @@ body {
     padding: 0 10px;
 }
 
+.header nav ul li a:hover {
+    color:white;
+    transition: .4s;
+}
+
+
+/* Added background image, subject to change once professional photos are taken of me */
 .bgimage {
-    height:100vh;
+    height: 100vh;
     background: url('/portfolio-page/images/heroImage.jpeg');
     background-size:cover;
     position:relative;
@@ -71,3 +79,54 @@ body {
 .hero_desc {
     font-size: 2rem;
 }
+
+
+.about-section {
+    width: 100%;
+    padding: 100px 0px;
+    background-color:#edf1ef;
+}
+
+.about-section img {
+    height: auto;
+    width: 30rem;
+}
+.about img {
+    width: 555px;
+}
+
+.about-container {
+    width: 70rem;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.about-info {
+    width: 555px;
+}
+.about-info p {
+    letter-spacing: 2px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.about-info h2 {
+    color: black;
+    font-size: 5rem;
+    text-transform: capitalize;
+    margin-bottom: 4rem;
+}
+.list-about-me {
+    margin-left: .7rem;
+    margin-bottom: 30px;
+}
+
+
+
+
+
+
+
