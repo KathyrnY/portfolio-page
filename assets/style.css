@@ -22,6 +22,9 @@ a:link {
     margin: 0;
     background-color: #155d35;
     font-family: 'Times New Roman', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .header h1 {
@@ -42,21 +45,20 @@ a:link {
 .header ul li a {
    position: relative;
    top: 1rem;
-   justify-content: space-between;
     color: var(--light-green);
     text-decoration: none;
 }
-.header nav {
+nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
 }
 
-.header nav ul li {
+nav ul li {
     padding: 0 10px;
 }
 
-.header nav ul li a:hover {
+nav ul li a:hover {
     color:white;
     transition: .4s;
 }
@@ -65,6 +67,7 @@ a:link {
 /* Added background image, subject to change once professional photos are taken of me */
 .bgimage {
     height: 100vh;
+    width: 100%;
     background: url('/images/heroImage.jpeg');
     background-size:cover;
     position:relative;
@@ -85,6 +88,7 @@ a:link {
     font-size: 2rem;
 }
 
+/* About Me section */
 
 .about-section {
     width: 100%;
@@ -228,4 +232,34 @@ a:link {
 
     
 }
+
+.footer {
+    font-size: 10px;
+    text-align: center;
+    margin-top: 10px;
+}
+/* Small Screens Capability */
+/* @media only screen and (max-width: 640px) {
+    .bgimage {
+        background: url('/images/heroImage.jpeg');
+    }
+
+    .header h1 {
+        font-size: 5px;
+        flex-direction: column;
+    }
+    nav ul li { 
+        display: flex;
+    }
+    .hero-text {
+        font-size: 10px;
+    }
+    .about-section {
+        flex-direction: column;
+    }
+    .about-container {
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+} */
 
