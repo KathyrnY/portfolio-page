@@ -182,6 +182,7 @@ nav ul li a:hover {
 }
 .work a {
     color: black;
+    padding: 0;
 }
 
 .work-list div:hover {
