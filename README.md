@@ -2,10 +2,7 @@
 
 ## Description
 
-Created a portfolio page using HTML and CSS to showcase my newly learned skills from UNC Chapel Hill Bootcamp. This will be updated as a progress trhoughout the coruse learning JS and React and more. *Subject to change
-
-## License
-MIT license
+Created a portfolio page using HTML and CSS to showcase my newly learned skills from UNC Chapel Hill Bootcamp. This will be updated as I progress throughout the course learning JS and React and more. *Subject to change
 
 ## Cite
 
@@ -22,3 +19,5 @@ Images obtained from the below links:
 ## Note
 
 Obtained assistance from tutor David Elutilo to make page more responsive. Complete revised Media Query was added along with minor changes to CSS and a minor change to HTML. 
+## License
+MIT license
