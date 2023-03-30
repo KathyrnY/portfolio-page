@@ -12,50 +12,16 @@ body {
     font-size: 16px;
     background-color:#edf1ef;
 }
+section {
+    margin-bottom: 2rem;
+}
 a:link {
     text-decoration: none;
     color: black;
 }
-
-.header {
-    height: 5rem;
-    margin: 0;
-    background-color: #155d35;
-    font-family: 'Times New Roman', Tahoma, Geneva, Verdana, sans-serif;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
-
-.header h1 {
-    margin-left: 2rem;
-    position: relative;
-    top: 0.5rem;
-    display: inline-block;
-    font-size: 3rem;
-    color: var(--light-green);
-}
-
-.header ul li {
-    display: inline;
-    font-size: 1.5rem;
-    color: var(--light-green);
-}
-
-.header ul li a {
-   position: relative;
-   top: 1rem;
-    color: var(--light-green);
-    text-decoration: none;
-}
 nav {
     padding-top: 15px;
     margin-right: 20px;
-    float: right;
-}
-
-nav ul li {
-    padding: 0 10px;
 }
 
 nav ul li a:hover {
@@ -63,6 +29,36 @@ nav ul li a:hover {
     transition: .4s;
 }
 
+.header {
+    margin: 0;
+    background-color: #155d35;
+    font-family: 'Times New Roman', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+.header h1 {
+    margin-left: 2rem;
+    position: relative;
+    display: inline-block;
+    font-size: 3rem;
+    color: var(--light-green);
+}
+
+.header ul {
+    list-style: none;
+    text-align: center;
+}
+
+.header ul li {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: var(--light-green);
+}
+
+.header ul li a {
+    color: var(--light-green);
+    text-decoration: none;
+}
 
 /* Added background image, subject to change once professional photos are taken of me */
 .bgimage {
@@ -98,22 +94,11 @@ nav ul li a:hover {
 
 .about-section img {
     height: auto;
-    width: 30rem;
-}
-.about img {
     width: 555px;
 }
 
-.about-container {
-    width: 70rem;
-    max-width: 95%;
-    margin: 0 auto;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-}
 .about-info {
-    width: 555px;
+    padding: 1rem;
 }
 .about-info p {
     letter-spacing: 2px;
@@ -191,7 +176,6 @@ nav ul li a:hover {
     text-decoration: none;
 }
 
-
 /* Contact section */
 .contact-container {
     width: 100%;
@@ -203,10 +187,6 @@ nav ul li a:hover {
 }
 .contact-title {
     font-size: 40px;
-    display: flex;
-    justify-content: center;
-    margin-right: 340px;
-    margin-top: 30px;
     color: black;
 }
 .contact-info p {
@@ -214,6 +194,7 @@ nav ul li a:hover {
     margin-bottom: 20px;
     color: black;
     text-decoration: none;
+    text-align: center;
 }
 .contact-info i {
     margin-top: 20px;
@@ -224,14 +205,13 @@ nav ul li a:hover {
 }
 .social-icons {
     margin-top: 30px;
+    text-align: center;
 }
 .social-icons a {
     margin-right: 15px;
     font-size: 40px;
     text-decoration: none;
     color:#155d35;
-
-    
 }
 
 .footer {
@@ -240,27 +220,34 @@ nav ul li a:hover {
     margin-top: 10px;
 }
 /* Small Screens Capability */
-/* @media only screen and (max-width: 640px) {
-    .bgimage {
-        background: url('/images/heroImage.jpeg');
+
+@media (min-width: 900px) {
+    .header {
+        height: 5rem;
+        display: flex;
+        justify-content: space-between;
     }
 
-    .header h1 {
-        font-size: 5px;
-        flex-direction: column;
+    .header ul {
+        display:flex;
+        gap: 2rem;
     }
-    nav ul li { 
-        display: flex;
-    }
-    .hero-text {
-        font-size: 10px;
-    }
-    .about-section {
-        flex-direction: column;
+
+    .header ul li {
+        margin-bottom: 1rem;
     }
     .about-container {
-        flex-direction: column;
-        flex-wrap: wrap;
+        width: 70rem;
+        max-width: 95%;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
     }
-} */
+    .about img {
+        width: 100%;
+    }
+}
+
+
 
