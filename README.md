@@ -4,8 +4,8 @@
 
 Created a portfolio page using HTML and CSS to showcase my newly learned skills from UNC Chapel Hill Bootcamp. This will be updated as a progress trhoughout the coruse learning JS and React and more. *Subject to change
 
-## Lincense
-MIT lincense
+## License
+MIT license
 
 ## Cite
 
