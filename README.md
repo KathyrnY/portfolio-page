@@ -18,3 +18,7 @@ Images obtained from the below links:
 4) SQL: https://www.freepik.com/free-vector/flat-design-sql-illustration_21665294.htm#query=mern%20stack%20illustration&position=35&from_view=search&track=ais
 
 5) Dev Ops https://www.freepik.com/free-vector/hand-drawn-flat-design-devops-illustration_25225390.htm#query=dev%20ops&position=0&from_view=search&track=ais
+
+## Note
+
+Obtained assistance from tutor David Elutilo to make page more responsive. Complete revised Media Query was added along with minor changes to CSS and a minor change to HTML. 
