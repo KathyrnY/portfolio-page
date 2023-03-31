@@ -6,7 +6,7 @@ Created a portfolio page using HTML and CSS to showcase my newly learned skills 
 
 ## Link
 
-
+https://kathyrny.github.io/portfolio-page/
 
 ## Webpage Screenshot
 
