@@ -4,6 +4,14 @@
 
 Created a portfolio page using HTML and CSS to showcase my newly learned skills from UNC Chapel Hill Bootcamp. This will be updated as I progress throughout the course learning JS and React and more. *Subject to change
 
+## Link
+
+
+
+## Webpage Screenshot
+
+![PortfolioPage](https://user-images.githubusercontent.com/127566404/229003441-ce7daf43-4229-45e7-9417-b21848601a1e.png)
+
 ## Cite
 
 Images obtained from the below links: 
