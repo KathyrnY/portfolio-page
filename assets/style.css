@@ -131,11 +131,6 @@ nav ul li a:hover {
     margin-top: 50px;
 }
 
-.work img {
-    width: 100%;
-    border-radius: 10px;
-    display: block;
-}
 .work-list div {
     background: rgb(43, 189, 133);
     padding: 20px;
@@ -154,6 +149,11 @@ nav ul li a:hover {
     font-weight: 500;
     margin-bottom: 15px;
     text-decoration: none;
+}
+.work img {
+    width: 100%;
+    border-radius: 10px;
+    display: block;
 }
 
 .work h3 {
